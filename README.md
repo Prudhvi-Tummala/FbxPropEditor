@@ -10,11 +10,17 @@ Now you can open .sln file in visual studio and build
 # How to use
 
 -h , --help : for help eg. (.../FbxPropEditor.exe -h)
+
 -f , --file : to input file location eg. (.../FbxPropEditor.exe -f .../file.fbx)
+
 -d , --docinfo : to modify properties related to DocumentInfo of a fbx file  eg. (.../FbxPropEditor.exe -f .../file.fbx -d "LastSaved|ApplicationName" )
+
 -g , --globalprop : to modify properties related to GlobalSettings of a fbx file (simillar to DocumentInfo)
+
 -v , --value : new value of the property eg. (.../FbxPropEditor.exe -f .../file.fbx -d "LastSaved|ApplicationName" -v FbxPropEditor )
+
 -l , --list : to view availble properties in fbx file eg. (.../FbxPropEditor.exe -f .../file.fbx -l)
+
 -a , --ascii : export file as ascii if not mentioned file will be exported as binary eg. (.../FbxPropEditor.exe -f .../file.fbx -a)
 
 # Notes
