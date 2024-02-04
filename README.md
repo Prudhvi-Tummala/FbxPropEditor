@@ -4,8 +4,8 @@ This can also be used to export Fbx as ascii or binary (by default fbx will be e
 
 # Build
 You need to install FBX SDK installed in your PC which you can download from Autodesk website (this project is developed with "FBX SDK 2020.3.4")
-in FbxPropEditorProps.props file you need to change FBX_SDK_DIR to your FBX SDK installation directory and make changes to AdditionalLibraryDirectories directory in props file if required eg:((FBX_SDK_DIR)lib\vs2022\x64\debug\)
-Now you can open .sln file in visual studio and build
+in FbxPropEditorProps.props file you need to change FBX_SDK_DIR to your FBX SDK installation directory and make changes to "AdditionalLibraryDirectories" directory ((FBX_SDK_DIR)lib\vs2022\x64\debug\ & (FBX_SDK_DIR)lib\vs2022\x64\release\;%(AdditionalLibraryDirectories)) in props file if required 
+Now you can open .sln file in visual studio and build (make sure your project settings inherit properties from parent or project defaults)
 
 # How to use
 
